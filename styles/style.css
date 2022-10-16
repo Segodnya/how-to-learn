@@ -206,12 +206,12 @@
 .oakley {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 160px;
   background-color: #f2f2f2;
 }
 
 .khan {
+  padding-top: 105px;
   background-color: #f2f2f2;
 }
 .khan__container {
@@ -426,6 +426,30 @@
   top: 0;
   right: -210px;
   z-index: 0;
+  animation: rotation 20s linear infinite;
+}
+
+.resources {
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 217px;
+}
+
+.resources__logo-zone {
+  margin: 0 auto;
+  padding-top: 80px;
+  width: 1100px;
+}
+.resources__link,
+.resources__logo {
+  margin: 0 auto;
+  width: 270px;
+  height: 38px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.resources__link:hover {
+  opacity: 0.5;
 }
 
 .footer {
