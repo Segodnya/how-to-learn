@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -17,6 +26,7 @@
   position: relative;
   display: flex;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo {
@@ -81,6 +91,7 @@
   top: 64px;
   right: 0px;
   z-index: 1;
+  animation: rotation 20s linear infinite;
 }
 
 .description {
@@ -126,6 +137,78 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.techniques {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 0 auto;
+  padding: 0;
+  column-gap: 100px;
+  width: 920px;
+  list-style: none;
+}
+
+.cards__item {
+  max-width: 240px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px 40px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description {
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin-bottom: -50px;
+}
+
+.video__iframe {
+  margin-right: 20px;
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:last-of-type {
+  margin-right: 0;
+}
+
+.oakley {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f2f2f2;
 }
 
 .digits {
