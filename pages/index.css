@@ -11,6 +11,14 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 
+/* List */
+@import url(../blocks/list/list.css);
+@import url(../blocks/list/_direction/list_direction_column.css);
+@import url(../blocks/list/__element/list__element.css);
+
+/* Link */
+@import url(../blocks/link/link.css);
+
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
