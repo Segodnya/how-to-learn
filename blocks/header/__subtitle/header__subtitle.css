@@ -9,3 +9,15 @@
   font-size: 18px;
   font-style: normal;
 }
+
+@media screen and (max-width: 516px) {
+  .header__subtitle {
+    padding: 10px;
+    left: 10px;
+    max-width: 280px;
+    line-height: 18px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+  }
+}

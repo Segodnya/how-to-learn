@@ -1,10 +1,16 @@
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
   width: 568px;
+  width: min(75%, 568px);
+  aspect-ratio: 1/1;
   background: #2f80ed;
   position: absolute;
   top: 64px;
   right: 0;
   z-index: 1;
+}
+
+@media screen and (max-width: 516px) {
+  .header__square-pic {
+    top: calc(75% - 208px);
+  }
 }

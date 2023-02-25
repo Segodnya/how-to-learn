@@ -2,8 +2,13 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 765px;
-  height: 608px;
+  width: min(100%, 765px);
   object-fit: cover;
   z-index: 2;
+}
+
+@media screen and (max-width: 516px) {
+  .header__main-illustration {
+    bottom: 104px;
+  }
 }
