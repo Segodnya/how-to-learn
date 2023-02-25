@@ -1,11 +1,12 @@
 .cards {
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: start;
-  -webkit-column-gap: 100px;
-  -moz-column-gap: 100px;
   column-gap: 100px;
-  width: 920px;
+  max-width: 920px;
+}
+
+@media screen and (max-width: 1164px) {
+  .cards {
+    justify-content: center;
+  }
 }

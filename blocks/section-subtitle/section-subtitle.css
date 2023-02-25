@@ -7,3 +7,16 @@
   font-size: 24px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 660px) {
+  .section-subtitle {
+    font-size: 24px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .section-subtitle {
+    font-size: 14px;
+  }
+}
