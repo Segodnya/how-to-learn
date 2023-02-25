@@ -8,3 +8,12 @@
   color: #2f80ed;
   z-index: 3;
 }
+
+@media screen and (max-width: 1124px) {
+  .feynman__link {
+    top: calc(100% - 81px);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+}

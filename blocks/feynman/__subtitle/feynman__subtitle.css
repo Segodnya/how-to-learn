@@ -7,3 +7,14 @@
   font-weight: normal;
   z-index: 10;
 }
+
+@media screen and (max-width: 730px) {
+  .feynman__subtitle {
+    max-width: 280px;
+    line-height: 1.15;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
