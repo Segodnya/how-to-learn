@@ -1,8 +1,13 @@
 .video__iframes {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   gap: 20px;
   margin-top: 50px;
   margin-bottom: -50px;
+}
+
+@media screen and (max-width: 1070px) {
+  .video__iframes {
+    flex-direction: column;
+    align-items: center;
+  }
 }
