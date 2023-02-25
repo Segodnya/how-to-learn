@@ -1,7 +1,18 @@
 .khan__book-container {
   margin: 0;
   margin-top: 68px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (max-width: 1130px) {
+  .khan__book-container {
+    flex-direction: column-reverse;
+    gap: 68px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .khan__book-container {
+    margin-top: 34px;
+  }
 }

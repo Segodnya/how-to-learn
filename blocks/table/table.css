@@ -1,8 +1,13 @@
 .table {
-  -ms-flex-wrap: wrap;
+  padding: 0 10px;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  width: 1100px;
+  max-width: 1100px;
+}
+
+@media screen and (max-width: 434px) {
+  .table {
+    justify-content: center;
+    text-align: center;
+  }
 }

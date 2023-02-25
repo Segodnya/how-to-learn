@@ -1,9 +1,15 @@
 .khan__book-pic {
   width: 620px;
-  height: 608px;
+  max-height: 608px;
   margin-right: 48px;
-  -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: top;
   object-position: top;
+}
+
+@media screen and (max-width: 1130px) {
+  .khan__book-pic {
+    margin-right: 0px;
+    width: min(100%, 620px);
+    aspect-ratio: 1/1;
+  }
 }

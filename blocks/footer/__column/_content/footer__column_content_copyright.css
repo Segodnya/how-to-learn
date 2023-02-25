@@ -5,3 +5,9 @@
   -ms-flex-preferred-size: 711px;
   flex-basis: 711px;
 }
+
+@media screen and (max-width: 1140px) {
+  .footer__column_content_copyright {
+    flex-basis: 30%;
+  }
+}

@@ -5,3 +5,10 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 720px) {
+  .khan__quote-author {
+    margin-top: 18px;
+    font-size: 12px;
+  }
+}
